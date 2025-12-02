@@ -11,6 +11,11 @@ function startPlanning() {
         return;
     }
 
+    if (totalSubjects > 10) {
+        alert("Studying over 10 subjects isn't realistic!");
+        return;
+    }
+
     // Hide the initial input section to focus on the current subject
     document.getElementById("numberOfSubjects").style.display = "none";
     document.querySelector("button[onclick='startPlanning()']").style.display = "none";
