@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter.ttf') format('truetype');
+}
+
+body {
+    padding: 25px;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1px;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Inter';
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #676767;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Inter';
+}
+
+button:hover {
+    background-color: #505050;
+}
